@@ -1,0 +1,39 @@
+header {
+    color: #fff;
+    border-radius:10;
+    background: #f8dc5d;
+    height:100px;
+    font-family: 'montserrat_bold', arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  ul>li { 
+    padding: 16px;
+    font-weight: 900;
+    margin-top:10px;
+    flex: 1;
+    color: white;
+  }
+  
+  .brand-logo {
+    height:50px;
+    width: 50px;
+    margin-top:-10px;
+    border-radius:90%;
+    padding:3px;
+    border: 2px solid white;
+    transition: 0.3s ease;
+  }
+  
+  .brand-logo:hover {
+    background-color:steelblue;
+    padding:10px;
+    height:35px;
+    width: 35px;
+  
+  }
