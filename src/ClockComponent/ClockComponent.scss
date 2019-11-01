@@ -1,0 +1,18 @@
+.clock{
+  margin: 32px;
+  display:flex;
+}
+
+.clock>h2{
+  margin: 45px 0 0 15px;
+  color:white;
+  padding:16px;
+  height:100%;
+  background-color: #6BB887;
+  border-radius:10%;
+}
+
+.react-clock__face{
+  border: 5px solid black!important;
+  background-color: white;
+}

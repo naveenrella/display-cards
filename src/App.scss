@@ -1,0 +1,13 @@
+@import "src/assets/styles/variables.scss";
+
+
+.App {
+    // background-color: #6BB887;
+    margin:auto;
+    @media screen and (min-width: $tablet-size){
+        width:90%;
+    }
+    @media screen and (min-width: $desktop-size){
+        width:75%;
+    }  
+  }

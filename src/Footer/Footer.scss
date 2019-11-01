@@ -1,9 +1,12 @@
+
+@import "src/assets/styles/variables.scss";
+
 footer{
     background: none repeat scroll 0 0 #1e1e1e;
     color: #707070;
     margin: 0 auto;
     padding: 50px 0;
-    text-align: center;   
+    text-align: center;  
 }
 p{
     text-decoration: underline;
@@ -25,13 +28,27 @@ a>i {
 }
 .social-media{
     margin-top:-35px;
+    @media screen and (min-width: $tablet-size ){
+
+    }
 }
 .social-media a{
     color: gray;
     font-size: 56px;
 }
-
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    @media screen and (min-width: $tablet-size){
+        flex-direction: unset;
+    }
+}
 .contact {
-    display:flex;
-    justify-content: space-around;
+    flex-basis:40%;
+    padding: 16px;
+    @media screen and (min-width: $tablet-size){
+        flex-basis: 40%;
+        padding:32px;
+    }
 }
