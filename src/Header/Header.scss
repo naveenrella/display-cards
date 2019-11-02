@@ -1,23 +1,23 @@
+@import "src/assets/styles/variables.scss";
+
 header {
-    color: #fff;
+    color: black;
     border-radius:10;
-    background: #f8dc5d;
+    background: #40a828;
     height:100px;
     font-family: 'montserrat_bold', arial, sans-serif;
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  
+    -webkit-font-smoothing: antialiased;  
   }
   ul {
     display: flex;
     list-style-type: none;
   }
-  ul>li { 
+  ul>li{ 
     padding: 16px;
     font-weight: 900;
     margin-top:10px;
     flex: 1;
-    color: white;
   }
   
   .brand-logo {
@@ -31,7 +31,7 @@ header {
   }
   
   .brand-logo:hover {
-    background-color:steelblue;
+    background-color:#40a828;
     padding:10px;
     height:35px;
     width: 35px;
