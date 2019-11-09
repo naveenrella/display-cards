@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import LandingPage from "../LandingPage/LandingPage.js";
 import DisplayCards from "../DisplayCards/DisplayCards.js";
-
+import Accounts from "../Accounts/Accounts.js";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -70,7 +70,7 @@ export default function ScrollableTabsButtonAuto() {
         >
           <Tab label="Login/Sign up" {...a11yProps(0)} />
           <Tab label="Clock" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+          <Tab label="Accounts" {...a11yProps(2)} />
           <Tab label="Item Four" {...a11yProps(3)} />
           <Tab label="Item Five" {...a11yProps(4)} />
           <Tab label="Item Six" {...a11yProps(5)} />
@@ -84,7 +84,7 @@ export default function ScrollableTabsButtonAuto() {
         <DisplayCards />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <Accounts />
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Four
